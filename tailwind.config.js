@@ -1,0 +1,42 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      backgroundImage: {
+        "hero-img": "url('/src/assets/images/heroImg.png')",
+        heroOverlay: "url('/src/assets/images/heroOverlay.png')",
+        heroOverlayJo: "url('/src/assets/images/joMaskgroup.png')",
+        heroOverlayMob: "url('/src/assets/images/heroOverlayMob.png')",
+        testimonialBg: "url('/src/assets/images/testimonialBg.png')",
+        meetGradient: "url('/src/assets/images/meetGradient.png')",
+        gradient2: "url('/src/assets/images/gradient2.png')",
+        gradient3: "url('/src/assets/images/gradient3.png')",
+        bookHero: "url('/src/assets/images/bookOvatImg.png')",
+        bookOvatMobImg: "url('/src/assets/images/bookJoMobImg.png')",
+        contactHero: "url('/src/assets/images/contactBg.png')",
+        contactMob: "url('/src/assets/images/contactHeroMob.png')",
+        mediaBg: "url('/src/assets/images/mediaBg.png')",
+        workBg: "url('/src/assets/images/workWithJo.png')",
+        workBgMob: "url('/src/assets/images/workWithJoMob.png')",
+        podcastBgMob: "url('/src/assets/images/podcastimg.png')",
+        calabarBgMob: "url('/src/assets/images/Calabar.png')",
+        reviewBg: "url('/src/assets/images/reviewBg.png')",
+        workwithjo1: "url('/src/assets/images/speak1.png')",
+        workwithjo2: "url('/src/assets/images/workwithjo2.png')",
+        privacyBg: "url('/src/assets/images/privacyBg.png')",
+        privacyBg2: "url('/src/assets/images/privacyBg2.png')",
+        privacyMobBg1: "url('/src/assets/images/privacyMobBg1.png')",
+        privacyMobBg2: "url('/src/assets/images/privacyMobBg2.png')",
+        speakBg: "url('/src/assets/images/speakBg.png')",
+        speakBgMob: "url('/src/assets/images/speakBgMob.png')",
+      },
+    },
+    fontFamily: {
+      playfair: ['"Playfair Display"', 'serif'],
+      allura: ['"Allura"', 'cursive'],
+      cormorant: ['"Cormorant Garamond"', 'serif'],
+    },
+  },
+  plugins: [],
+};

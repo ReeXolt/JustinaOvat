@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.custom-font {
+  font-family: "IM Fell English SC", serif;
+}
+
+.slick-dots li button:before {
+  color: white;
+}
+.slide {
+  margin: 0 10px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+
+.faq-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.faq-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.faq-exit {
+  opacity: 1;
+}
+
+.faq-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.wavy {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+.space {
+  padding-right: 30px;
+}
