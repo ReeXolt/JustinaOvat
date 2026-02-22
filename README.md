@@ -1,2 +1,0 @@
-# JustinaOvat
-a portfolio website
