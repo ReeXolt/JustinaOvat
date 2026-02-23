@@ -951,11 +951,11 @@ export const commitment = [
   },
 ];
 
-import framework1 from '../assets/images/framework1.png';
-import framework2 from '../assets/images/framework2.png';
-import framework3 from '../assets/images/framework3.png';
-import framework4 from '../assets/images/framework4.png';
-import framework5 from '../assets/images/framework5.png';
+import framework1 from '../assets/images/Framework1.png';
+import framework2 from '../assets/images/Framework2.png';
+import framework3 from '../assets/images/Framework3.png';
+import framework4 from '../assets/images/Framework4.png';
+import framework5 from '../assets/images/Framework5.png';
 import { PiStrategy } from 'react-icons/pi';
 import { PiAsclepius } from 'react-icons/pi';
 import { LuRoute } from 'react-icons/lu';
