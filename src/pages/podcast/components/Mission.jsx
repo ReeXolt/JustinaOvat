@@ -2,7 +2,7 @@ import mic2 from '../../../assets/images/mic2.png';
 
 export default function Mission() {
   return (
-    <div className="bg-[linear-gradient(65deg,#000_30%,#FDECF7_80%,#000_100%)] py-10 relative min-h-[]">
+    <div className="bg-[linear-gradient(65deg,#000_30%,#FDECF7_80%,#000_100%)] pb-[14rem] md:pb-[0] py-10 relative">
       <img
         src={mic2}
         alt="joimg"
