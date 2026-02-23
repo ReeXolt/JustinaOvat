@@ -13,7 +13,7 @@ import { BlogDetails } from "./pages/blog/components/BlogDetails";
 import { WorkWithJoPage } from "./pages/work-wit-JO/WorkWithJoPage";
 import { Privacy } from "./pages/privacy/Privacy";
 import { ScrollToTopButton } from "./components/ScrollToTop";
-import { Organizations } from "./pages/organizations/organizations";
+import { Organizations } from "./pages/organizations";
 import Podcast from "./pages/podcast/Podcast";
 import { AfieguEvents } from "./pages/afieguEvents/AfieguEvents";
 
