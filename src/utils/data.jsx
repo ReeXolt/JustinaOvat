@@ -99,7 +99,6 @@ export const navLinks = [
     width: 'w-24',
     dropdown: [
       { text: 'ABOUT JUSTINA', path: '/about' },
-      { text: 'JO FOUNDATION', path: 'https://thejofoundation.org/' },
       { text: 'PRESS & MEDIA', path: '/about#press' },
     ],
   },
