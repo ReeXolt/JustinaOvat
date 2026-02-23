@@ -43,9 +43,7 @@ export const Hero = () => {
             Entrepreneur.
           </h1>
           <p className="pt-5  leading-6 md:leading-8 text-base md:text-2xl">
-            Justina is making waves by disrupting and redefining conventional
-            service delivery through her innovative and paradigm shifting
-            approach.
+            Justina is a Hospitality Learning Culture Consultant helping hotels build learning systems that drive performance, leadership, and retention.
           </p>
         </div>
       </motion.div>
