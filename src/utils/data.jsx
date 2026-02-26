@@ -122,7 +122,7 @@ export const navLinks = [
     dropdown: [
       {
         text: 'SERVICE CRAFT COMPANY',
-        path: '/organizations',
+        path: '/TSC',
       },
       { text: 'JO FOUNDATION', path: 'https://thejofoundation.org/' },
       { text: 'AFIEGU EVENTS & TOURS', path: '/afiegu' },

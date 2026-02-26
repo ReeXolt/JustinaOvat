@@ -27,7 +27,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/podcast" element={<Podcast />} />
         <Route path="/afiegu" element={<AfieguEvents />} />
-        <Route path="/organizations" element={<Organizations />} />
+        <Route path="/TSC" element={<Organizations />} />
         <Route path="/about/details/:id" element={<PressDetails />} />
         <Route path="/work-with-jo" element={<WorkWithJoPage />} />
         <Route path="/blog" element={<BlogPage />} />

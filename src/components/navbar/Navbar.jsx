@@ -70,14 +70,12 @@ export const Navbar = () => {
                               <Link
                                 to={subItem.path}
                                 target={
-                                  subItem.text === 'JO FOUNDATION' ||
-                                  subItem.text === 'SERVICE CRAFT COMPANY'
+                                  subItem.text === 'JO FOUNDATION'
                                     ? '_blank'
                                     : '_self'
                                 }
                                 rel={
-                                  subItem.text === 'JO FOUNDATION' ||
-                                  subItem.text === 'SERVICE CRAFT COMPANY'
+                                  subItem.text === 'JO FOUNDATION'
                                     ? 'noopener noreferrer'
                                     : ''
                                 }
@@ -144,14 +142,12 @@ export const Navbar = () => {
                               <Link
                                 to={subItem.path}
                                 target={
-                                  subItem.text === 'JO FOUNDATION' ||
-                                  subItem.text === 'SERVICE CRAFT COMPANY'
+                                  subItem.text === 'JO FOUNDATION' 
                                     ? '_blank'
                                     : '_self'
                                 }
                                 rel={
-                                  subItem.text === 'JO FOUNDATION' ||
-                                  subItem.text === 'SERVICE CRAFT COMPANY'
+                                  subItem.text === 'JO FOUNDATION'
                                     ? 'noopener noreferrer'
                                     : ''
                                 }
